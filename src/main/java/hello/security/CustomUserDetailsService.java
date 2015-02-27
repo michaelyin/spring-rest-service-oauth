@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package hello;
+package hello.security;
 
 import hello.data.User;
 import hello.data.UserRepository;

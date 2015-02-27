@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package hello;
+package hello.rest;
 
 import hello.data.Greeting;
 import hello.data.User;

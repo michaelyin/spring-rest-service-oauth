@@ -83,4 +83,12 @@ The service is deployed to Cloud Foundry and available for testing. Modify the p
 
 ```
 curl http://rclarkson-restoauth.cfapps.io/greeting
+
 ```
+
+## useful links for oauth
+Securing REST Services with Spring Security and OAuth2
+http://porterhead.blogspot.com/2014/05/securing-rest-services-with-spring.html
+
+Building a secure REST API with Spring Data REST and Java 8
+http://jaxenter.com/rest-api-spring-java-8-112289.html

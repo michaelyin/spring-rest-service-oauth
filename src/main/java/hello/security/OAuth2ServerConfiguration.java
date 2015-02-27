@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package hello;
+package hello.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
