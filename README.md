@@ -86,9 +86,28 @@ curl http://rclarkson-restoauth.cfapps.io/greeting
 
 ```
 
+## Testing with Advanced Rest Client (in Google Chrome)
+link:  http://localhost:8080/oauth/token
+Headers: Authorization: Basic Y2xpZW50YXBwOjEyMzQ1Ng==
+
+Payload: password=spring&username=roy&grant_type=password&scope=read%20write&client_secret=123456&client_id=clientapp
+
+returned json:
+{
+access_token: "d3c034e7-04d9-48b3-b3c4-eaf84413a8d4"
+token_type: "bearer"
+refresh_token: "06b55cb0-7d2a-4f64-840b-211677ce448b"
+expires_in: 39306
+scope: "read write"
+}
+
 ## useful links for oauth
 Securing REST Services with Spring Security and OAuth2
 http://porterhead.blogspot.com/2014/05/securing-rest-services-with-spring.html
 
 Building a secure REST API with Spring Data REST and Java 8
 http://jaxenter.com/rest-api-spring-java-8-112289.html
+
+#authorization links
+Quick Tip: Spring Security Role-based Authorization and Permissions
+http://springinpractice.com/2010/10/27/quick-tip-spring-security-role-based-authorization-and-permissions/
