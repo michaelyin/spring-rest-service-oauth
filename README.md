@@ -1,3 +1,10 @@
+Add code which functions as a audio stream receiver. It will also save it to wav file.
+
+Actually what I want is to save the audio stream to mp3 file. After searching on Google, I cannot find an easy way to do it.
+One option is to use use some C libraries, on which JNI can do the job. 
+
+
+
 # Spring REST Service OAuth
 
 [![Build Status](https://drone.io/github.com/royclarkson/spring-rest-service-oauth/status.png)](https://drone.io/github.com/royclarkson/spring-rest-service-oauth/latest)
