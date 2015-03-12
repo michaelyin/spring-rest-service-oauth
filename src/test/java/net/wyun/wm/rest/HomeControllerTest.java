@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-package hello;
+package net.wyun.wm.rest;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import hello.rest.HomeController;
+import net.wyun.wm.Application;
+import net.wyun.wm.rest.HomeController;
 
 import org.junit.Before;
 import org.junit.Test;
